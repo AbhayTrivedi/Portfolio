@@ -1,0 +1,90 @@
+
+body {
+  background-color: #FFFFF0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 400%;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+  color: #0A81AB;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #0A81AB;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #0A81AB;
+}
+
+.top-container{
+  background-color: skyblue;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 18%;
+  top: 10%;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 20%;
+  bottom: 62%;
+}
+
+.mountain{
+  position: relative;
+  top: 5px;
+}
+
+.middle-container{
+
+}
+
+.profile{
+
+}
+
+/*
+.skills{
+
+}
+*/
+
+.skill-row{
+  width: 60%;
+  margin: 7% auto 7% auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.left-images{
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+.right-images{
+  width: 25%;
+  float: right;
+  margin-left: 5%;
+}
+
+.contact-me{
+
+}
+
+
+.bottom-container{
+  background-color: gray;
+  margin: 0;
+}
