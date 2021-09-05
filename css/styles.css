@@ -51,7 +51,9 @@ h3{
 }
 
 .profile{
-
+  width: 70%;
+  text-align: center;
+  margin: 3% auto 0 auto;
 }
 
 /*
@@ -79,7 +81,40 @@ h3{
   margin-left: 5%;
 }
 
-.contact-me{
+.button{
+   background: #5ACFF7;
+   background-image: -webkit-linear-gradient(top, #5ACFF7, #0A81AB);
+   background-image: -moz-linear-gradient(top, #5ACFF7, #0A81AB);
+   background-image: -ms-linear-gradient(top, #5ACFF7, #0A81AB);
+   background-image: -o-linear-gradient(top, #5ACFF7, #0A81AB);
+   background-image: -webkit-gradient(to bottom, #5ACFF7, #0A81AB);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-size: 100%;
+   font-weight: 300;
+   padding: 1%;
+   border: solid #0059A0 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   border: solid #FFAE00 1px;
+   background: #FFD13B;
+   background-image: -webkit-linear-gradient(top, #FFD13B, #F6BF0B);
+   background-image: -moz-linear-gradient(top, #FFD13B, #F6BF0B);
+   background-image: -ms-linear-gradient(top, #FFD13B, #F6BF0B);
+   background-image: -o-linear-gradient(top, #FFD13B, #F6BF0B);
+   background-image: -webkit-gradient(to bottom, #FFD13B, #F6BF0B);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
 
 }
 
@@ -87,4 +122,56 @@ h3{
 .bottom-container{
   background-color: gray;
   margin: 0;
+}
+
+.contact-me{
+  margin-bottom: 1%;
+}
+
+a.button:link {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.button:visited {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.button:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.button:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFD13B;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #5ACFF7;
+  background-color: transparent;
+  text-decoration: underline;
 }
