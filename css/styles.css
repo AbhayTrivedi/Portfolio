@@ -23,10 +23,15 @@ h3{
   color: #0A81AB;
 }
 
+p{
+  line-height: 2;
+}
+
+
 .top-container{
   background-color: skyblue;
   position: relative;
-  padding-top: 100px;
+  padding-top: 6%;
 }
 
 .top-cloud{
@@ -37,7 +42,7 @@ h3{
 
 .bottom-cloud{
   position: absolute;
-  left: 20%;
+  left: 15%;
   bottom: 62%;
 }
 
@@ -47,7 +52,7 @@ h3{
 }
 
 .middle-container{
-
+  color: #40514E;
 }
 
 .profile{
@@ -63,10 +68,9 @@ h3{
 */
 
 .skill-row{
-  width: 60%;
+  width: 55%;
   margin: 7% auto 7% auto;
   text-align: left;
-  line-height: 2;
 }
 
 .left-images{
@@ -88,14 +92,14 @@ h3{
    background-image: -ms-linear-gradient(top, #5ACFF7, #0A81AB);
    background-image: -o-linear-gradient(top, #5ACFF7, #0A81AB);
    background-image: -webkit-gradient(to bottom, #5ACFF7, #0A81AB);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
    color: #FFFFFF;
-   font-family: Montserrat;
+   font-family: 'Montserrat', sans-serif;
    font-size: 100%;
    font-weight: 500;
-   padding: 0.8%;
+   padding: 0.5% 0.8%;
    border: solid #0059A0 1px;
    text-decoration: none;
    display: inline-block;
@@ -111,11 +115,10 @@ h3{
    background-image: -ms-linear-gradient(top, #FFD13B, #F6BF0B);
    background-image: -o-linear-gradient(top, #FFD13B, #F6BF0B);
    background-image: -webkit-gradient(to bottom, #FFD13B, #F6BF0B);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
    text-decoration: none;
-
 }
 
 
@@ -126,6 +129,12 @@ h3{
 
 .contact-me{
   margin-bottom: 1%;
+}
+
+.contact-message{
+  width: 70%;
+  text-align: center;
+  margin: 1% auto 1% auto;
 }
 
 a.button:link {
@@ -155,7 +164,9 @@ a.button:active {
 a:link {
   color: Black;
   background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+  margin: 0 0.3%;
 }
 
 a:visited {
