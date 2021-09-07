@@ -137,6 +137,12 @@ p{
   margin: 1% auto 1% auto;
 }
 
+.footer-bar{
+  background-color: #FFD13B;
+  margin: 0 auto;
+  font-size: 90%;
+}
+
 a.button:link {
   color: Black;
   background-color: transparent;
